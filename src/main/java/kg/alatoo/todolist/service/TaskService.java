@@ -8,6 +8,7 @@ import java.util.List;
 @Service
 public interface TaskService {
     public Task findById(long id);
+
     List<Task> findAll();
     public void createTask(Task task);
 }

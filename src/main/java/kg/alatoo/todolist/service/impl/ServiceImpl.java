@@ -1,6 +1,8 @@
 package kg.alatoo.todolist.service.impl;
 
+import kg.alatoo.todolist.entity.Category;
 import kg.alatoo.todolist.entity.Task;
+import kg.alatoo.todolist.repository.CategoryRepository;
 import kg.alatoo.todolist.repository.TaskRepository;
 import kg.alatoo.todolist.service.TaskService;
 import lombok.RequiredArgsConstructor;
@@ -31,4 +33,5 @@ public class ServiceImpl implements TaskService {
         taskRepository.save(task);
 
     }
+
 }
