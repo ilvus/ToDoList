@@ -31,6 +31,7 @@ This is a Java-based To-Do List application built using Spring Boot. It allows u
 12. Setup OpenAPI and SwaggerUI for API documentation.
 
 **Running the Application**
+
 Make sure you have Java and Maven installed on your system.
 
 Clone the repository: git clone https://github.com/ilvus/ToDoList.git
@@ -40,4 +41,7 @@ Navigate to the project directory: cd ToDoList
 Build the project: mvn clean install
 
 Run the application: mvn spring-boot:run
+
+
+**SRS**: https://docs.google.com/document/d/1X0du-1tlHpapm6dSgfGmp98tEZNRVoZcInvIIkgUqsA/edit?usp=sharing
 
